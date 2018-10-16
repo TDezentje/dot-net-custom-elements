@@ -1,0 +1,6 @@
+/client/node_modules
+/client/transformers/dist
+/server/elements
+/server/wwwroot/assets
+/server/obj
+/server/bin

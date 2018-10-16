@@ -1,0 +1,26 @@
+﻿@page
+@using Elements
+@using Elements.Models
+
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="assets/HeroList.js"></script>
+    <link href="assets/HeroList.css" rel="stylesheet">
+</head>
+
+<body>
+    @Html.Raw(new HeroListElement {
+        Heroes = new List<Hero> {
+            new Hero() {
+                Name = "Ironman"
+            },
+            new Hero() {
+                Name = "Hulk"
+            }
+        }
+    })
+</body>
+</html>

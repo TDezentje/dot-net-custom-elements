@@ -1,0 +1,17 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "sourceMap": false,
+        "declaration": false,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es2015",
+        "noImplicitAny": false,
+        "lib": [
+            "es2015",
+            "es2016",
+            "dom"
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.row:nth-child(even) {
+    background: lightgray;
+}
